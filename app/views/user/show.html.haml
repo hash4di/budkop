@@ -1,0 +1,22 @@
+- if !current_user
+  = link_to "Log In", new_user_session_path
+- else
+  = button_to "Logout", user_session_path, :method => :delete
+%p.notice= notice 
+%p
+  %b Login:
+  = @user.login
+%p
+  %b Name:
+  = @user.name
+%p
+  %b Surname:
+  = @user.surname
+%p
+  %b Email:
+  = @user.email
+%p
+  %b Description:
+  = @user.description
+= link_to 'Edit', edit_user_path |
+

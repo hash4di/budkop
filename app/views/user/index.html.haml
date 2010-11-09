@@ -1,0 +1,18 @@
+%h1 Listing users
+
+%table
+  %tr
+    %th Nickname
+    %th Name
+    %th Surname
+    %th Email
+    %th Description
+
+  - @users.each do |user|
+    %tr
+      %td= user.nickname
+      %td= user.name
+      %td= user.surname
+      %td= user.email
+      %td= user.description
+
