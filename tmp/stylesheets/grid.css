@@ -1731,6 +1731,14 @@
   margin-right: 0;
 }
 /* line 7, ../../app/stylesheets/grid/people.sass */
+#image {
+  position: relative;
+  left: 190px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 8, ../../app/stylesheets/grid/people.sass */
 #people #content #overview {
   display: inline;
   float: left;
@@ -1739,7 +1747,7 @@
   width: 380px;
   margin-left: 0;
 }
-/* line 10, ../../app/stylesheets/grid/people.sass */
+/* line 11, ../../app/stylesheets/grid/people.sass */
 #people #content #details {
   display: inline;
   float: left;
@@ -1748,7 +1756,7 @@
   width: 460px;
   margin-right: 0;
 }
-/* line 14, ../../app/stylesheets/grid/people.sass */
+/* line 15, ../../app/stylesheets/grid/people.sass */
 #people #content #details .user .avatar {
   display: inline;
   float: left;
@@ -1757,7 +1765,7 @@
   width: 60px;
   margin-left: 0;
 }
-/* line 17, ../../app/stylesheets/grid/people.sass */
+/* line 18, ../../app/stylesheets/grid/people.sass */
 #people #content #details .user .description {
   display: inline;
   float: left;
