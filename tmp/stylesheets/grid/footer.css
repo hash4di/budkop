@@ -78,5 +78,6 @@ app/stylesheets/grid/footer.sass:2
 */
 body:before {
   white-space: pre;
+  background: #FF8C14;
   font-family: monospace;
   content: "Syntax error: Undefined mixin 'grid-system'.\A         on line 2 of app/stylesheets/grid/footer.sass, in `grid-system'\A         from line 2 of app/stylesheets/grid/footer.sass\A \A 1: #footer\A 2:   +grid-system(12)\A 3:   +grid-container\A 4:   #copyright\A 5:     +grid(8)\A 6:     +alpha\A 7:   #design"; }

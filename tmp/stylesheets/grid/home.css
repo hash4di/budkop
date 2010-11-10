@@ -77,5 +77,6 @@ app/stylesheets/grid/home.sass:2
 */
 body:before {
   white-space: pre;
+  background: #FF8C14;
   font-family: monospace;
   content: "Syntax error: Undefined mixin 'grid-system'.\A         on line 2 of app/stylesheets/grid/home.sass, in `grid-system'\A         from line 2 of app/stylesheets/grid/home.sass\A \A 1: #home\A 2:   +grid-system(12)\A 3:   +grid-container\A 4:   #content\A 5:     +grid(11)\A 6:     +omega"; }
