@@ -1,25 +1,10 @@
 #gallery
   #content
-    %h2 Gallery
+    %h2 Galeria
     %h3
-      We are involved in bleeding edge technology from eighteen years.
-      Currently we use mostly Ruby Language and Ruby on Rails framework to accomplish our goals.
-      We work on Mac OS X powered Macs with extra productivity and anti-distraction tools.
-      Here you have tag cloud of technologies we are familiar with.
-      We believe in tight tested code which means better maintainability.
+      Prezentujemy galerię wykonywanych przez nas usług.
     #tag_cloud
       - Tag.all.each do |a_tag|
         = link_to a_tag.name, a_tag.url, :class => "tag tip", :title => a_tag.title
     .vertical_spacer_3
-    #opensource
-      %h3 We do Opensource
-      %h4
-        As sharing is good we are good at it.
-        Many of solutions we make after polishing is given to the Ruby community.
-        This ensures the best solutions and support for your piece of software.
-        As the business logic of your software is still yours the common elements are shared for the community.
-      #github_list
-        %p Here is the list of our shared resources:
-        %ul
-          %li= link_to 'Budkop github account', 'http://github.com/hash4di/budkop'
   .clear

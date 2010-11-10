@@ -1,26 +1,25 @@
 #contact_us
   - if @message_sent
-    #message_sent Your message has been sent. We will soon answer to your e-mail.
+    #message_sent Twoja wiadomość została wysłana. Wkrótce się do Ciebie odezwiemy.
     .clear
   #content
-    %h2 Contact us
+    %h2 Kontakt
     %h3
-      We are waiting for you to challenge us with your needs.
-      Meet us in private and present your ideas. Then let the forging begin.
+      Czekamy na Ciebie.
+      Chętnie doradzimy, podpowiemy a nawet zrobimy - oczywiście za kasę.
     #oridinary
-      %h4 Location
-      #zip_with_city 42-200 Częstochowa
-      #address Łódzka 8/12
-      #country Poland
-      #region Europe
-      %h4 Phones
-      #phone_first +48 662 02 00 55
-      %h4 Emails
-      #email_development development@doubledrones.com
-      #email_consulting consulting@doubledrones.com
+      %h4 Lokalizacja
+      #zip_with_city 42-262 Nierada k. Częstochowy
+      #address Targowa 164
+      #country Polska
+      #region Europa
+      %h4 Telefon
+      #phone_first +48 606 64 66 10
+      %h4 Email
+      #email_consulting biuro@budkop.heroku.com
     #online_form
-      %h4 Online contact form
-      #description Fill this form if you have a quick question or if you want a free quote from us.
+      %h4 Formularz online
+      #description Wypełnij ten formularz, jeśli masz do nas szybkie pytanie.
       - if @contact.errors.any?
         .spacer
         #error_explanation
@@ -30,14 +29,14 @@
             - @contact.errors.full_messages.each do |msg|
               %li= msg
       - form_for(@contact) do |f|
-        = f.label(:name, 'Your Name')
+        = f.label(:name, 'Twoje Imię')
         = f.text_field(:name)
         .clear
-        = f.label(:email, 'Your Email')
+        = f.label(:email, 'Twój adres e-mail')
         = f.text_field(:email)
         .clear
-        = f.label(:message, 'Message:')
+        = f.label(:message, 'Wiadomość:')
         = f.text_area(:message)
         .clear
-        = submit_tag('Send now', :class => 'submit')
+        = submit_tag('Wyślij', :class => 'submit')
   .clear
