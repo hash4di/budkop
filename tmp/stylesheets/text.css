@@ -4,7 +4,7 @@
  * Licensed under GPL and MIT. */
 /* line 4, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
 body {
-  background: #FF8C14;
+  background: #FF8C14; 
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
@@ -86,15 +86,15 @@ fieldset {
   margin-bottom: 20px;
 }
 
-/* line 1, /Users/hash4di/projects/budkop/app/stylesheets/text/defaults.sass */
+/* line 1, ../../app/stylesheets/text/defaults.sass */
 body {
-  background: #FF8C14;
+  background: #ff8c14;
   font-size: 14px;
 }
 
 /* line 1, /Users/hash4di/projects/budkop/app/stylesheets/text/headers.sass */
 h2 {
-  color: 111;
+  color: 999;
 }
 
 /* line 3, /Users/hash4di/projects/budkop/app/stylesheets/text/headers.sass */
@@ -146,7 +146,7 @@ form .field_with_errors {
 /* line 2, /Users/hash4di/projects/budkop/app/stylesheets/text/header.sass */
 #header #name {
   font: bold 3em Arial;
-  color: 111;
+  color: aaa;
 }
 /* line 6, /Users/hash4di/projects/budkop/app/stylesheets/text/header.sass */
 #header #menu ul {
@@ -163,13 +163,13 @@ form .field_with_errors {
 /* line 14, /Users/hash4di/projects/budkop/app/stylesheets/text/header.sass */
 #header #motto {
   font: 1em Arial;
-  color: 111;
+  color: ccc;
 }
 
 /* line 1, /Users/hash4di/projects/budkop/app/stylesheets/text/footer.sass */
 #footer {
   font: 1em Arial;
-  color: 111;
+  color: bbb;
 }
 
 /* line 3, ../../app/stylesheets/text/gallery.sass */
