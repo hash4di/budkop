@@ -2,18 +2,18 @@
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 4, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 4, ../../app/stylesheets/960/text.sass */
 body {
-  background: #FF8C14; 
+  background: #ff8c14;
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
-/* line 6, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 7, ../../app/stylesheets/960/text.sass */
 a:focus {
   outline: 1px dotted invert;
 }
 
-/* line 8, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 9, ../../app/stylesheets/960/text.sass */
 hr {
   border-color: #cccccc;
   border-style: solid;
@@ -22,52 +22,52 @@ hr {
   height: 0;
 }
 
-/* line 14, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 15, ../../app/stylesheets/960/text.sass */
 h1 {
   font-size: 25px;
 }
 
-/* line 16, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 17, ../../app/stylesheets/960/text.sass */
 h2 {
   font-size: 23px;
 }
 
-/* line 18, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 19, ../../app/stylesheets/960/text.sass */
 h3 {
   font-size: 21px;
 }
 
-/* line 20, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 21, ../../app/stylesheets/960/text.sass */
 h4 {
   font-size: 19px;
 }
 
-/* line 22, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 23, ../../app/stylesheets/960/text.sass */
 h5 {
   font-size: 17px;
 }
 
-/* line 24, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 25, ../../app/stylesheets/960/text.sass */
 h6 {
   font-size: 15px;
 }
 
-/* line 26, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 27, ../../app/stylesheets/960/text.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 28, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 29, ../../app/stylesheets/960/text.sass */
 ul {
   list-style: square;
 }
 
-/* line 30, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 31, ../../app/stylesheets/960/text.sass */
 li {
   margin-left: 30px;
 }
 
-/* line 32, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 33, ../../app/stylesheets/960/text.sass */
 p,
 dl,
 hr,
@@ -143,27 +143,28 @@ form .field_with_errors {
   font: bold 1em Arial;
 }
 
-/* line 2, /Users/hash4di/projects/budkop/app/stylesheets/text/header.sass */
+/* line 2, ../../app/stylesheets/text/header.sass */
 #header #name {
   font: bold 3em Arial;
-  color: aaa;
+  color: black;
 }
-/* line 6, /Users/hash4di/projects/budkop/app/stylesheets/text/header.sass */
+/* line 6, ../../app/stylesheets/text/header.sass */
 #header #menu ul {
+  color: black;
   list-style: none;
   display: block;
   margin: 0 10px;
 }
-/* line 10, /Users/hash4di/projects/budkop/app/stylesheets/text/header.sass */
+/* line 11, ../../app/stylesheets/text/header.sass */
 #header #menu ul li {
   float: left;
-  margin: 0 1.5em;
-  font: bold 0.9em Arial;
+  margin: 1em 1.5em;
+  font: bold 1em Helvetica;
 }
-/* line 14, /Users/hash4di/projects/budkop/app/stylesheets/text/header.sass */
+/* line 15, ../../app/stylesheets/text/header.sass */
 #header #motto {
   font: 1em Arial;
-  color: ccc;
+  color: black;
 }
 
 /* line 1, /Users/hash4di/projects/budkop/app/stylesheets/text/footer.sass */

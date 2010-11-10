@@ -300,6 +300,7 @@
 }
 /* line 4, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #name {
+  color: black;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -309,6 +310,7 @@
 }
 /* line 7, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #menu {
+  color: black;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -318,6 +320,7 @@
 }
 /* line 10, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #motto {
+  color: black;
   display: inline;
   float: left;
   margin-left: 10px;
@@ -1731,7 +1734,7 @@
   margin-right: 0;
 }
 /* line 7, ../../app/stylesheets/grid/people.sass */
-#image {
+#people #content #image {
   position: relative;
   left: 190px;
   margin-left: auto;
