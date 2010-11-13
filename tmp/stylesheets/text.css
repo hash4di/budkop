@@ -2,13 +2,13 @@
  * Learn more ~ http://960.gs/
  * *
  * Licensed under GPL and MIT. */
-/* line 4, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 4, /../../projects/budkop/app/stylesheets/960/text.sass */
 body {
   background: #ff8c14;
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
-/* line 7, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 7, /../../projects/budkop/app/stylesheets/960/text.sass */
 a:focus {
   outline: 1px dotted invert;
 }
@@ -21,7 +21,7 @@ a:hover {
 }
 
 
-/* line 9, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 9, /../../projects/budkop/app/stylesheets/960/text.sass */
 hr {
   border-color: #cccccc;
   border-style: solid;
@@ -30,52 +30,52 @@ hr {
   height: 0;
 }
 
-/* line 15, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 15, /../../projects/budkop/app/stylesheets/960/text.sass */
 h1 {
   font-size: 25px;
 }
 
-/* line 17, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 17, /../../projects/budkop/app/stylesheets/960/text.sass */
 h2 {
   font-size: 23px;
 }
 
-/* line 19, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 19, /../../projects/budkop/app/stylesheets/960/text.sass */
 h3 {
   font-size: 21px;
 }
 
-/* line 21, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 21, /../../projects/budkop/app/stylesheets/960/text.sass */
 h4 {
   font-size: 19px;
 }
 
-/* line 23, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 23, /../../projects/budkop/app/stylesheets/960/text.sass */
 h5 {
   font-size: 17px;
 }
 
-/* line 25, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 25, /../../projects/budkop/app/stylesheets/960/text.sass */
 h6 {
   font-size: 15px;
 }
 
-/* line 27, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 27, /../../projects/budkop/app/stylesheets/960/text.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 29, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 29, /../../projects/budkop/app/stylesheets/960/text.sass */
 ul {
   list-style: square;
 }
 
-/* line 31, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 31, /../../projects/budkop/app/stylesheets/960/text.sass */
 li {
   margin-left: 30px;
 }
 
-/* line 33, /Users/hash4di/projects/budkop/app/stylesheets/960/text.sass */
+/* line 33, /../../projects/budkop/app/stylesheets/960/text.sass */
 p,
 dl,
 hr,
@@ -136,17 +136,17 @@ dl dd {
   color: #000000;
 }
 
-/* line 2, /Users/hash4di/projects/budkop/app/stylesheets/text/forms.sass */
+/* line 2, /../../projects/budkop/app/stylesheets/text/forms.sass */
 form .field_with_errors {
   color: red;
   display: inline;
 }
 
-/* line 6, /Users/hash4di/projects/budkop/app/stylesheets/text/forms.sass */
+/* line 6, /../../projects/budkop/app/stylesheets/text/forms.sass */
 #error_explanation {
   color: red;
 }
-/* line 8, /Users/hash4di/projects/budkop/app/stylesheets/text/forms.sass */
+/* line 8, /../../projects/budkop/app/stylesheets/text/forms.sass */
 #error_explanation #reason {
   font: bold 1em Arial;
 }
@@ -172,7 +172,7 @@ form .field_with_errors {
 /* line 15, ../../app/stylesheets/text/header.sass */
 #header #motto {
   font: 1em Arial;
-  color: 111;
+  color: #000000;
 }
 
 /* line 1, ../../app/stylesheets/text/footer.sass */
@@ -280,7 +280,7 @@ form .field_with_errors {
   transform: rotate(2deg) scale(1.2);
 }
 
-/* line 2, /Users/hash4di/projects/budkop/app/stylesheets/text/contact_us.sass */
+/* line 2, /../../projects/budkop/app/stylesheets/text/contact_us.sass */
 #contact_us #message_sent {
   color: green;
 }
