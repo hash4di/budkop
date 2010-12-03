@@ -39,12 +39,13 @@
 
 /* line 1, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header {
-  background: black;
+  background: #000000;
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   overflow: hidden;
   width: 960px;
+  font-color: 613814;
 }
 /* line 33, /Users/hash4di/projects/budkop/app/stylesheets/960/grid.sass */
 #header .grid_1, #header .grid_2, #header .grid_3, #header .grid_4, #header .grid_5, #header .grid_6, #header .grid_7, #header .grid_8, #header .grid_9, #header .grid_10, #header .grid_11, #header .grid_12 {
@@ -300,7 +301,6 @@
 }
 /* line 4, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #name {
-  background: #000000;
   display: inline;
   float: left;
   margin-left: 20px;
@@ -309,7 +309,6 @@
 }
 /* line 7, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #menu {
-  background: #000000;
   display: inline;
   float: left;
   margin-top: 8px;
@@ -320,7 +319,6 @@
 }
 /* line 10, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #motto {
-  background: #000000;
   display: inline;
   float: left;
   margin-left: 20px;
