@@ -2,6 +2,7 @@
 #header {
   background: #000000;
   margin-top: 0;
+  overflow: hidden;
 }
 /* line 4, ../../../app/stylesheets/text/header.sass */
 #header #name {
