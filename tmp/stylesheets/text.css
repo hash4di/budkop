@@ -7,6 +7,7 @@ body {
   background: #613814;
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
   margin: 0;
+  color: white;
 }
 
 /* line 8, ../../app/stylesheets/960/text.sass */
@@ -19,7 +20,7 @@ a:link,
 a:visited,
 a:active,
 a:hover {
-  color: 613814;
+  color: white;
 }
 
 /* line 15, ../../app/stylesheets/960/text.sass */
@@ -99,26 +100,27 @@ fieldset {
 body {
   background: #613814;
   font-size: 14px;
+  color: white;
 }
 
 /* line 1, ../../app/stylesheets/text/headers.sass */
 h2 {
-  color: 111;
+  color: white;
 }
 
 /* line 3, ../../app/stylesheets/text/headers.sass */
 h3 {
-  color: 111;
+  color: white;
 }
 
 /* line 5, ../../app/stylesheets/text/headers.sass */
 h4 {
-  color: 111;
+  color: white;
 }
 
 /* line 1, ../../app/stylesheets/text/paragraphs.sass */
 p {
-  color: 111;
+  color: white;
 }
 
 /* line 2, ../../app/stylesheets/text/lists.sass */
@@ -134,7 +136,7 @@ dl dt {
 }
 /* line 9, ../../app/stylesheets/text/lists.sass */
 dl dd {
-  color: 111;
+  color: white;
 }
 
 /* line 2, /Users/hash4di/projects/budkop/app/stylesheets/text/forms.sass */
@@ -154,40 +156,41 @@ form .field_with_errors {
 
 /* line 1, ../../app/stylesheets/text/header.sass */
 #header {
-  background: black;
   margin-top: 0;
+  font-color: white;
   overflow: hidden;
 }
 /* line 5, ../../app/stylesheets/text/header.sass */
 #header #name {
   font: bold 3em Arial;
-  color: 613814;
   margin: left 20px;
+  color: white;
 }
 /* line 10, ../../app/stylesheets/text/header.sass */
 #header #menu ul {
   list-style: none;
   display: block;
   margin: 8px 10px;
+  color: white;
 }
-/* line 14, ../../app/stylesheets/text/header.sass */
+/* line 15, ../../app/stylesheets/text/header.sass */
 #header #menu ul li {
   float: left;
   margin: 1em 1.5em;
   font: bold 1em Helvetica;
-  color: 613814;
+  color: white;
 }
-/* line 19, ../../app/stylesheets/text/header.sass */
+/* line 20, ../../app/stylesheets/text/header.sass */
 #header #motto {
   font: 1em Arial;
-  color: 613814;
   margin: left 20px;
+  color: white;
 }
 
 /* line 1, ../../app/stylesheets/text/footer.sass */
 #footer {
   font: 1em Arial;
-  color: 111;
+  color: white;
 }
 
 /* line 3, ../../app/stylesheets/text/gallery.sass */
