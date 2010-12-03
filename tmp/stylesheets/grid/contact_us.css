@@ -77,7 +77,7 @@ app/stylesheets/grid/contact_us.sass:2
 /Users/hash4di/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
 */
 body:before {
+  background: 613814;
   white-space: pre;
-  background: #ff8c14;
   font-family: monospace;
   content: "Syntax error: Undefined mixin 'grid-system'.\A         on line 2 of app/stylesheets/grid/contact_us.sass, in `grid-system'\A         from line 2 of app/stylesheets/grid/contact_us.sass\A \A 1: #contact_us\A 2:   +grid-system(12)\A 3:   +grid-container\A 4:   #message_sent\A 5:     +grid(12)\A 6:     +alpha\A 7:   #content"; }

@@ -3,8 +3,7 @@
     %h2 Galeria
     %h3
       Prezentujemy galerię wykonywanych przez nas usług.
-    #tag_cloud
-      - Tag.all.each do |a_tag|
-        = link_to a_tag.name, a_tag.url, :class => "tag tip", :title => a_tag.title
+    #litebox
+      $('#ex1').litebox();
     .vertical_spacer_3
   .clear
