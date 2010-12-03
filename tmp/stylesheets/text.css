@@ -154,7 +154,7 @@ form .field_with_errors {
 
 /* line 1, ../../app/stylesheets/text/header.sass */
 #header {
-  background: black;
+  background: #000000;
   margin-top: 0;
 }
 /* line 4, ../../app/stylesheets/text/header.sass */

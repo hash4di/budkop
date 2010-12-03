@@ -77,7 +77,6 @@ app/stylesheets/grid/spacers.sass:2
 /Users/hash4di/.rvm/rubies/ruby-1.9.1-p378/lib/ruby/1.9.1/webrick/server.rb:183:in `block in start_thread'
 */
 body:before {
-  background: 613814;
   white-space: pre;
   font-family: monospace;
   content: "Syntax error: Undefined mixin 'grid'.\A         on line 2 of app/stylesheets/grid/spacers.sass, in `grid'\A         from line 2 of app/stylesheets/grid/spacers.sass\A \A 1: .vertical_spacer\A 2:   +grid(12)\A 3:   :height 1em\A 4: \A 5: .vertical_spacer_3\A 6:   +grid(12)\A 7:   :height 3em"; }
