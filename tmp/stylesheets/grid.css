@@ -301,6 +301,7 @@
 }
 /* line 4, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #name {
+  background: #000000;
   display: inline;
   float: left;
   margin-left: 20px;
@@ -309,6 +310,7 @@
 }
 /* line 7, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #menu {
+  background: #000000;
   display: inline;
   float: left;
   margin-top: 8px;
@@ -319,6 +321,7 @@
 }
 /* line 10, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #motto {
+  background: #000000;
   display: inline;
   float: left;
   margin-left: 20px;
