@@ -321,13 +321,13 @@
 }
 /* line 10, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #motto {
+  color: #C4160A;
   display: inline;
   float: left;
   margin-left: 10px;
   margin-right: 10px;
   width: 940px;
   margin-left: 0;
-  color: #C4160A;
 }
 
 /* line 1, /Users/hash4di/projects/budkop/app/stylesheets/grid/footer.sass */
