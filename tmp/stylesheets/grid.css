@@ -39,10 +39,11 @@
 
 /* line 1, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header {
-  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
   width: 960px;
 }
 /* line 33, /Users/hash4di/projects/budkop/app/stylesheets/960/grid.sass */
@@ -301,30 +302,32 @@
 #header #name {
   display: inline;
   float: left;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 10px;
   width: 380px;
-  color: white;
+  margin-left: 0;
+  color: black;
 }
 /* line 7, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #menu {
   display: inline;
   float: left;
-  margin-top: 8px;
   margin-left: 10px;
-  margin-right: 0px;
+  margin-right: 10px;
   width: 540px;
-  color: white;
+  margin-right: 0;;
+  color: #C4160A;
 
 }
 /* line 10, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #motto {
   display: inline;
   float: left;
-  margin-left: 20px;
+  margin-left: 10px;
   margin-right: 10px;
   width: 940px;
-  color: white;
+  margin-left: 0;
+  color: #C4160A;
 }
 
 /* line 1, /Users/hash4di/projects/budkop/app/stylesheets/grid/footer.sass */
@@ -1734,6 +1737,7 @@
 /* line 7, ../../app/stylesheets/grid/people.sass */
 #people #content #image {
   position: relative;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
 }
