@@ -1444,12 +1444,19 @@
 }
 /* line 4, ../../app/stylesheets/grid/gallery.sass */
 #gallery #content {
+  display: inline;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 940px;
+}
+
+#gallery #content #photo_gallery {
   margin: auto;
   margin-left: auto;
   margin-right: auto;
   width: 940px;
 }
-
 /* line 1, /Users/hash4di/projects/budkop/app/stylesheets/grid/people.sass */
 #people {
   margin-left: auto;
