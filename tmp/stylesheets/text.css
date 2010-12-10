@@ -192,6 +192,14 @@ form .field_with_errors {
   font: 1em Helvetica;
   color: 111;
 }
+
+#gallery #content #photo_gallery #litebox0 #litebox2 #litebox3 #litebox4 #litebox5 #litebox6 #litebox7 #litebox8 #litebox9 #litebox10 #litebox11 #litebox12 #litebox13 {
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 940px;
+}
+
 /* line 2, /Users/hash4di/projects/budkop/app/stylesheets/text/contact_us.sass */
 #contact_us #message_sent {
   color: green;
