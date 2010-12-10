@@ -193,7 +193,8 @@ form .field_with_errors {
   color: 111;
 }
 
-#gallery #content #photo_gallery #litebox0 #litebox2 #litebox3 #litebox4 #litebox5 #litebox6 #litebox7 #litebox8 #litebox9 #litebox10 #litebox11 #litebox12 #litebox13 {
+/* line 3, ../../app/stylesheets/text/gallery.sass */
+#gallery #content #photo_gallery {
   margin: auto;
   margin-left: auto;
   margin-right: auto;
