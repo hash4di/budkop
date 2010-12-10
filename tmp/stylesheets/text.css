@@ -8,12 +8,12 @@ body {
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
-/* line 8, ../../app/stylesheets/960/text.sass */
+/* line 7, ../../app/stylesheets/960/text.sass */
 a:focus {
   outline: 1px dotted invert;
 }
 
-/* line 10, ../../app/stylesheets/960/text.sass */
+/* line 9, ../../app/stylesheets/960/text.sass */
 a:link,
 a:visited,
 a:active,
@@ -21,7 +21,7 @@ a:hover {
   color: #c4160a;
 }
 
-/* line 15, ../../app/stylesheets/960/text.sass */
+/* line 14, ../../app/stylesheets/960/text.sass */
 hr {
   border-color: #cccccc;
   border-style: solid;
@@ -30,52 +30,52 @@ hr {
   height: 0;
 }
 
-/* line 21, ../../app/stylesheets/960/text.sass */
+/* line 20, ../../app/stylesheets/960/text.sass */
 h1 {
   font-size: 25px;
 }
 
-/* line 23, ../../app/stylesheets/960/text.sass */
+/* line 22, ../../app/stylesheets/960/text.sass */
 h2 {
   font-size: 23px;
 }
 
-/* line 25, ../../app/stylesheets/960/text.sass */
+/* line 24, ../../app/stylesheets/960/text.sass */
 h3 {
   font-size: 21px;
 }
 
-/* line 27, ../../app/stylesheets/960/text.sass */
+/* line 26, ../../app/stylesheets/960/text.sass */
 h4 {
   font-size: 19px;
 }
 
-/* line 29, ../../app/stylesheets/960/text.sass */
+/* line 28, ../../app/stylesheets/960/text.sass */
 h5 {
   font-size: 17px;
 }
 
-/* line 31, ../../app/stylesheets/960/text.sass */
+/* line 30, ../../app/stylesheets/960/text.sass */
 h6 {
   font-size: 15px;
 }
 
-/* line 33, ../../app/stylesheets/960/text.sass */
+/* line 32, ../../app/stylesheets/960/text.sass */
 ol {
   list-style: decimal;
 }
 
-/* line 35, ../../app/stylesheets/960/text.sass */
+/* line 34, ../../app/stylesheets/960/text.sass */
 ul {
   list-style: square;
 }
 
-/* line 37, ../../app/stylesheets/960/text.sass */
+/* line 36, ../../app/stylesheets/960/text.sass */
 li {
   margin-left: 30px;
 }
 
-/* line 39, ../../app/stylesheets/960/text.sass */
+/* line 38, ../../app/stylesheets/960/text.sass */
 p,
 dl,
 hr,
@@ -154,7 +154,7 @@ form .field_with_errors {
 }
 /* line 8, /Users/hash4di/projects/budkop/app/stylesheets/text/forms.sass */
 #error_explanation #reason {
-  font: bold 1em Helvetica;
+  font: bold 1em Arial;
 }
 
 /* line 2, ../../app/stylesheets/text/header.sass */
