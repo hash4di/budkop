@@ -1,6 +1,6 @@
 /* line 2, ../../../app/stylesheets/text/header.sass */
 #header #name {
-  font: bold 3em Arial;
+  font: bold 3em Helvetica;
   color: black;
 }
 /* line 6, ../../../app/stylesheets/text/header.sass */
@@ -19,6 +19,6 @@
 }
 /* line 16, ../../../app/stylesheets/text/header.sass */
 #header #menu #motto {
-  font: 1em Arial;
-  color: black;
+  font: 1em Helvetica;
+  color: #c4160a;
 }

@@ -10,5 +10,5 @@ form .field_with_errors {
 }
 /* line 8, ../../../app/stylesheets/text/forms.sass */
 #error_explanation #reason {
-  font: bold 1em Arial;
+  font: bold 1em Helvetica;
 }

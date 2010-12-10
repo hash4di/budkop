@@ -134,7 +134,7 @@ dl {
 }
 /* line 9, ../../app/stylesheets/text/lists.sass */
 dl dt {
-  font: bold 1em Arial;
+  font: bold 1em Helvetica;
   color: black;
 }
 /* line 12, ../../app/stylesheets/text/lists.sass */
@@ -154,12 +154,12 @@ form .field_with_errors {
 }
 /* line 8, /Users/hash4di/projects/budkop/app/stylesheets/text/forms.sass */
 #error_explanation #reason {
-  font: bold 1em Arial;
+  font: bold 1em Helvetica;
 }
 
 /* line 2, ../../app/stylesheets/text/header.sass */
 #header #name {
-  font: bold 3em Arial;
+  font: bold 3em Helvetica;
   color: black;
 }
 /* line 6, ../../app/stylesheets/text/header.sass */
@@ -178,13 +178,13 @@ form .field_with_errors {
 }
 /* line 16, ../../app/stylesheets/text/header.sass */
 #header #menu #motto {
-  font: 1em Arial;
+  font: 1em Helvetica;
   color: #c4160a;
 }
 
 /* line 1, ../../app/stylesheets/text/footer.sass */
 #footer {
-  font: 1em Arial;
+  font: 1em Helvetica;
   color: 111;
 }
 
