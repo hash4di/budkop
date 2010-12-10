@@ -1443,10 +1443,6 @@
   margin-right: 10px;
   width: 940px;
 }
-/* line 21, ../../app/stylesheets/grid/gallery.sass */
-#gallery #content #photo_gallery #litebox #close h1 {
-  color: red;
-}
 /* line 1, /Users/hash4di/projects/budkop/app/stylesheets/grid/people.sass */
 #people {
   margin-left: auto;

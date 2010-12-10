@@ -192,20 +192,6 @@ form .field_with_errors {
   font: 1em Helvetica;
   color: 111;
 }
-
-/* line 4, ../../app/stylesheets/text/gallery.sass */
-#gallery #content #photo_gallery #litebox {
-  width: auto;
-  height: auto;
-  background: none repeat scroll 0% 0% #222222;
-  color: red;
-  text-align: center;
-}
-/* line 10, ../../app/stylesheets/text/gallery.sass */
-#gallery #content #photo_gallery #litebox #close {
-  color: red;
-}
-
 /* line 2, /Users/hash4di/projects/budkop/app/stylesheets/text/contact_us.sass */
 #contact_us #message_sent {
   color: green;
