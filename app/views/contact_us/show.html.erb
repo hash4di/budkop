@@ -1,0 +1,54 @@
+<div id='contact_us'>
+  <%- if @message_sent %>
+    <div id='message_sent'>Twoja wiadomość została wysłana. Wkrótce się do Ciebie odezwiemy</div>.
+    <div class='clear'></div>
+  <% end %>
+  <div id='content'>
+    <h2>Kontakt</h2>
+    <h3>
+      Czekamy na Ciebie.
+      Chętnie doradzimy, podpowiemy a nawet zrobimy - oczywiście za kasę.
+    </h3>
+    <div id='oridinary'>
+      <h4>Lokalizacja</h4>
+      <div id='zip_with_city'>42-262 Nierada k. Częstochowy</div>
+      <div id='address'>Targowa 164</div>
+      <div id='country'>Polska</div>
+      <div id='region'>Europa</div>
+      <h4>Telefon</h4>
+      <div id='phone_first'>+48 606 64 66 10</div>
+      <h4>Email</h4>
+      <div id='email_consulting'>hash4di@gmail.com</div>
+    </div>
+    <div id='online_form'>
+      <h4>Formularz online</h4>
+      <div id='description'>Wypełnij ten formularz, jeśli masz do nas szybkie pytanie.</div>
+      <%- if @contact.errors.any? %>
+        <div class='spacer'></div>
+        <div id='error_explanation'>
+          <div id='reason'>
+            You cannot sent this message due to:</br>
+          <ul>
+            <%- @contact.errors.full_messages.each do |msg| %>
+              <li><%= msg %></li>
+            <% end %>
+          </ul>
+          </div>
+        </div>
+      <% end %>
+      <%- form_for(@contact) do |f| %>
+        <%= f.label(:name, 'Twoje imię') %>
+        <%= f.text_field(:name) %>
+        <div id='clear'></div>
+        <%= f.label(:email, 'Twój adres e-mail') %>
+        <%= f.text_field(:email) %>
+        <div id='clear'></div>
+        <%= f.label(:message, 'Wiadomość:') %>
+        <%= f.text_field(:message) %>
+        <div id='clear'></div>
+        <%= submit_tag('Wyślij', :class => 'submit') %>
+      <% end %>
+  </div>
+  <div class='clear'></div>
+</div>
+
