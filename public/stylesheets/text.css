@@ -78,6 +78,7 @@ ul {
 /* line 38, ../../app/stylesheets/960/text.sass */
 li {
   margin-left: 30px;
+  color: #c4160a;
 }
 
 /* line 40, ../../app/stylesheets/960/text.sass */
@@ -112,11 +113,15 @@ h2 {
 
 /* line 3, ../../app/stylesheets/text/headers.sass */
 h3 {
-  color: #c4160a;
+  color: black;
 }
 
 /* line 5, ../../app/stylesheets/text/headers.sass */
 h4 {
+  color: #c4160a;
+}
+
+h6 {
   color: #c4160a;
 }
 
