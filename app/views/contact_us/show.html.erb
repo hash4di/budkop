@@ -44,7 +44,7 @@
         <%= f.text_field(:email) %>
         <div id='clear'></div>
         <%= f.label(:message, 'Wiadomość:') %>
-        <%= f.text_field(:message) %>
+        <%= f.text_area(:message) %>
         <div id='clear'></div>
         <%= submit_tag('Wyślij', :class => 'submit') %>
       <% end %>
