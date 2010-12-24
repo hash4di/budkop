@@ -4,7 +4,7 @@
  * Licensed under GPL and MIT. */
 /* line 4, ../../app/stylesheets/960/text.sass */
 body {
-  background: #613814;
+  background: white;
   font: 13px/1.5 Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
 }
 
@@ -42,7 +42,7 @@ h1 {
 
 /* line 24, ../../app/stylesheets/960/text.sass */
 h2 {
-  font-size: 23px;
+  font-size: 24px;
 }
 
 /* line 26, ../../app/stylesheets/960/text.sass */
@@ -79,6 +79,7 @@ ul {
 li {
   margin-left: 30px;
   color: #c4160a;
+  font-size: 17px;
 }
 
 /* line 40, ../../app/stylesheets/960/text.sass */
@@ -102,7 +103,7 @@ fieldset {
 
 /* line 1, ../../app/stylesheets/text/defaults.sass */
 body {
-  background: #58acfa;
+  background: white;
   font-size: 14px;
 }
 
@@ -120,6 +121,9 @@ h3 {
 h4 {
   color: #c4160a;
 }
+h5 {
+  color: #c4160a;
+}
 
 h6 {
   color: #c4160a;
@@ -135,7 +139,8 @@ ul li {
   line-height: 1.6;
   margin: 0px 0px 2px;
   padding: 0px 0px 0px 14px;
-  color: white;
+  color: black;
+  font-size: 17px;
 }
 
 /* line 7, ../../app/stylesheets/text/lists.sass */
@@ -149,7 +154,7 @@ dl dt {
 }
 /* line 12, ../../app/stylesheets/text/lists.sass */
 dl dd {
-  color: white;
+  color: black;
 }
 
 /* line 2, /Users/hash4di/projects/budkop/app/stylesheets/text/forms.sass */
