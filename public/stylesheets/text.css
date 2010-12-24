@@ -188,7 +188,7 @@ form .field_with_errors {
 #header #menu ul li {
   float: left;
   margin: 0 1.5em;
-  font: bold 0.9em Helvetica;
+  font: bold 1.0em Helvetica;
   color: #FC4C00;
 }
 /* line 16, ../../app/stylesheets/text/header.sass */
