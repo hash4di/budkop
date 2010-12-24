@@ -23,7 +23,7 @@ a:link,
 a:visited,
 a:active,
 a:hover {
-  color: #c4160a;
+  color: #FC4C00;
 }
 
 /* line 16, ../../app/stylesheets/960/text.sass */
@@ -78,7 +78,7 @@ ul {
 /* line 38, ../../app/stylesheets/960/text.sass */
 li {
   margin-left: 30px;
-  color: #c4160a;
+  color: #FC4C00;
   font-size: 17px;
 }
 
@@ -109,7 +109,7 @@ body {
 
 /* line 1, ../../app/stylesheets/text/headers.sass */
 h2 {
-  color: #c4160a;
+  color: #FC4C00;
 }
 
 /* line 3, ../../app/stylesheets/text/headers.sass */
@@ -119,14 +119,14 @@ h3 {
 
 /* line 5, ../../app/stylesheets/text/headers.sass */
 h4 {
-  color: #c4160a;
+  color: #FC4C00;
 }
 h5 {
-  color: #c4160a;
+  color: #FC4C00;
 }
 
 h6 {
-  color: #c4160a;
+  color: #FC4C00;
 }
 
 /* line 1, ../../app/stylesheets/text/paragraphs.sass */
@@ -182,19 +182,19 @@ form .field_with_errors {
   list-style: none;
   display: block;
   margin: 0 10px;
-  color: #c4160a;
+  color: #FC4C00;
 }
 /* line 11, ../../app/stylesheets/text/header.sass */
 #header #menu ul li {
   float: left;
   margin: 0 1.5em;
   font: bold 0.9em Helvetica;
-  color: #c4160a;
+  color: #FC4C00;
 }
 /* line 16, ../../app/stylesheets/text/header.sass */
 #header #motto {
   font: 1em Helvetica;
-  color: #c4160a;
+  color: #FC4C00;
 }
 
 /* line 1, ../../app/stylesheets/text/footer.sass */

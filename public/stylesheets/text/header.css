@@ -8,17 +8,17 @@
   list-style: none;
   display: block;
   margin: 0 10px;
-  color: #c4160a;
+  color: #FC4C00;
 }
 /* line 11, ../../../app/stylesheets/text/header.sass */
 #header #menu ul li {
   float: left;
   margin: 0 1.5em;
   font: bold 0.9em Helvetica;
-  color: #c4160a;
+  color: #FC4C00;
 }
 /* line 16, ../../../app/stylesheets/text/header.sass */
 #header #motto {
   font: 1em Helvetica;
-  color: #c4160a;
+  color: #FC4C00;
 }
