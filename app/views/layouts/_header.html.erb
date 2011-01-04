@@ -2,11 +2,11 @@
   <div id='name'><%=link_to (image_tag "../images/logo.jpg"), people_path %></div>
   <div id='menu'>
     <ul>
-      <li><a href="/people">O NAS</a></li>
-      <li><a href="/services">MINIKOPARKA</a></li>
+      <li><%= link_to "O NAS", o_nas_path %></li>
+      <li><%= link_to "MINIKOPARKA", minikoparka_path %></li>
       <li><%= link_to "TRANSPORT", transport_path %></li>
-      <li><a href="/gallery">GALERIA</a></li>
-      <li><a href="/contact_us">KONTAKT</a></li>
+      <li><%= link_to "GALERIA", galeria_path %></li>
+      <li><%= link_to "KONTAKT", kontakt_path %></li>
     </ul>
   </div>
   <div id='motto'>minikoparka i transport</div>
