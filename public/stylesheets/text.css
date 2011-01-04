@@ -15,7 +15,7 @@ a:focus {
 
 /* line 9, ../../app/stylesheets/960/text.sass */
 a {
-  color: #c4160a;
+  color: #FC4C00;
 }
 
 /* line 11, ../../app/stylesheets/960/text.sass */
@@ -173,9 +173,9 @@ form .field_with_errors {
 }
 
 /* line 2, ../../app/stylesheets/text/header.sass */
-#header #name {
+#header #name a{
   font: bold 3em Helvetica;
-  color: black;
+  color: white;
 }
 /* line 6, ../../app/stylesheets/text/header.sass */
 #header #menu ul {
@@ -188,19 +188,19 @@ form .field_with_errors {
 #header #menu ul li {
   float: left;
   margin: 0 1.5em;
-  font: bold 1.0em Helvetica;
+  font: bold 1.1em Helvetica;
   color: #FC4C00;
 }
 /* line 16, ../../app/stylesheets/text/header.sass */
 #header #motto {
-  font: 1em Helvetica;
-  color: #FC4C00;
+  font: 3em Helvetica;
+  color: #cccccc;
 }
 
 /* line 1, ../../app/stylesheets/text/footer.sass */
 #footer {
   font: 1em Helvetica;
-  color: 111;
+  color: #cccccc;
 }
 
 /* line 2, ../../app/stylesheets/text/gallery.sass */
@@ -209,7 +209,7 @@ form .field_with_errors {
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 940px;
+  width: 950px;
 }
 
 #gallery #content #photo_gallery {
@@ -217,6 +217,10 @@ form .field_with_errors {
   margin-left: auto;
   margin-right: auto;
   width: 940px;
+}
+
+#gallery #content #photo_gallery a {
+  color: white;
 }
 
 /* line 2, /Users/hash4di/projects/budkop/app/stylesheets/text/contact_us.sass */

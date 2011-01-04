@@ -303,26 +303,26 @@
   float: left;
   margin-left: 10px;
   margin-right: 10px;
-  width: 380px;
+  width: 140px;
   margin-left: 0;
 }
 /* line 7, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #menu {
   display: inline;
-  float: left;
+  float: right;
   margin-left: 10px;
   margin-right: 10px;
-  width: 540px;
+  width: 800px;
   margin-right: 0;
 }
 /* line 10, /Users/hash4di/projects/budkop/app/stylesheets/grid/header.sass */
 #header #motto {
   display: inline;
   float: left;
-  margin-left: 10px;
+  margin-top: 50px;
+  margin-left: 80px;
   margin-right: 10px;
-  width: 940px;
-  margin-left: 0;
+  width: 540px;
 }
 
 /* line 1, /Users/hash4di/projects/budkop/app/stylesheets/grid/footer.sass */
@@ -594,6 +594,7 @@
   margin-right: 10px;
   width: 620px;
   margin-left: 0;
+  margin-bottom: 10px;
 }
 /* line 7, /Users/hash4di/projects/budkop/app/stylesheets/grid/footer.sass */
 #footer #design {
@@ -603,6 +604,7 @@
   margin-right: 10px;
   width: 300px;
   margin-right: 0;
+  margin-bottom: 10px;
 }
 
 /* line 1, ../../app/stylesheets/tooltip.sass */
@@ -1171,6 +1173,20 @@
   margin-left: 0;
 }
 /* line 10, /Users/hash4di/projects/budkop/app/stylesheets/grid/services.sass */
+
+#services #content #overview .spacer_0 {
+  height: 2em;
+}
+
+
+#services #content #overview .spacer_1 {
+  height: 6.5em;
+}
+
+#services #content #overview .spacer_2 {
+  height: 1em;
+}
+
 #services #content #details {
   display: inline;
   float: left;
@@ -1463,7 +1479,7 @@
   width: 960px;
   margin-left: auto;
   margin-right: auto;
-  width: 960px;
+  width: 960px;  
 }
 /* line 33, /Users/hash4di/projects/budkop/app/stylesheets/960/grid.sass */
 #people .grid_1, #people .grid_2, #people .grid_3, #people .grid_4, #people .grid_5, #people .grid_6, #people .grid_7, #people .grid_8, #people .grid_9, #people .grid_10, #people .grid_11, #people .grid_12 {
@@ -1729,10 +1745,10 @@
 /* line 7, /Users/hash4di/projects/budkop/app/stylesheets/grid/people.sass */
 #people #content #image {
   display: inline;
-  float: left;
+  float: right;
   margin-left: 10px;
   margin-right: 10px;
-  width: 940px;
+  width: 460px;
   margin-right: 0;
 }
 /* line 10, /Users/hash4di/projects/budkop/app/stylesheets/grid/people.sass */
@@ -1740,17 +1756,17 @@
   display: inline;
   float: left;
   margin-left: 10px;
-  margin-right: 10px;
+  margin-right: 0px;
   width: 380px;
   margin-left: 0;
 }
 /* line 13, /Users/hash4di/projects/budkop/app/stylesheets/grid/people.sass */
 #people #content #details {
   display: inline;
-  float: left;
+  float: right;
   margin-left: 10px;
   margin-right: 10px;
-  width: 460px;
+  width: 200px;
   margin-right: 0;
 }
 /* line 17, /Users/hash4di/projects/budkop/app/stylesheets/grid/people.sass */

@@ -4,9 +4,10 @@ BudKop::Application.routes.draw do |map|
   resource :user_session
   resource :account, :controller => "users"
 #  resource :home, :controller => 'home'
-  resource :services
+  resource :services 
   resource :gallery, :controller => 'gallery'
   resource :people
   resource :contact_us
+  resource :transport
   root :to => 'people#show'
 end

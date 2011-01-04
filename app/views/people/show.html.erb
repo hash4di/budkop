@@ -1,11 +1,12 @@
 <div id='people'>
   <div id='content'>
-    <img alt="Flota" src="/images/../images/flota.png" />
+    <div id='image'>
+      <img src="/images/../images/flota.jpg" />
+    </div>
     <div id='overview'>
-      <h2>Usługi miniKoparką</h2>
+      <h2>oferujemy:</h2>
       <p>
-      dysponujemy minikoparką marki <b>Schaeff HR12</b>
-        specjalizujemy się w usługach typu:
+       koparka: <b>Schaeff HR12</b>       
       </p>
         <ul>
           <li><b>przyłącza WOD-KAN</b></li>
@@ -27,25 +28,35 @@
           <li>kształtowanie terenu</li>
           <li>załadunek</li>
         </ul>
-      <h4>Usługi transportowe</h4>
-      <p>dostępne pojazdy:</p>
-      <dl>
-          <dt>Mercedes Vito</dt>
-          <dd> </dd>
-          <dt>Fiat Doblo</dt>
-          <dd> </dd>
-          <dt>przyczepa Brenderup</dt>
-          <dd> </dd>
-      </dl>
+        <%= link_to ">> więcej...", services_path %>
       </p> 
     </div>
     <div id='details'>
+      <h6>Usługi transportowe</h6>
       <div class='description'>
-        <h4>Orientacyjny zakres usług miniKoparką</h4>
-      <img src="../images/mapa.png">
+        <dl>
+          <dt> dostępne pojazdy:
+          <dd> Mecedes Vito
+          <dd> Fiat Doblo
+          <dd> przyczepa Brenderup
+          <dd> <%=link_to ">> LINK", transport_path %>
+      </div>    
+    </div>
+    <div id='details'>
+      <h4>Kontakt</h4>
+      <div class='description'>
+        <dl>
+          <dt> Osoba kontaktowa:
+          <dd> Bartosz Cierpiał
+          <dt> Adres:
+          <dd> 42-262 Nierada k. Częstochowy, 
+          <dd> ul Targowa 164
+          <dt> Telefon:
+          <dd> +48 606 64 66 10
+          <dt> Email:
+          <dd> biuro@budkop.czest.pl
       </div>
     </div>
   </div>
   <div class='clear'></div>
 </div>
-

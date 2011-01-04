@@ -1,14 +1,14 @@
 <div id='header'>
-  <div id='name'><img src="../images/logo.png"></div>
+  <div id='name'><%=link_to (image_tag "../images/logo.jpg"), people_path %></div>
   <div id='menu'>
     <ul>
       <li><a href="/people">O NAS</a></li>
-      <li><a href="/services">USŁUGI</a></li>
+      <li><a href="/services">MINIKOPARKA</a></li>
+      <li><%= link_to "TRANSPORT", transport_path %></li>
       <li><a href="/gallery">GALERIA</a></li>
       <li><a href="/contact_us">KONTAKT</a></li>
     </ul>
   </div>
-  <div class='clear'></div>
   <div id='motto'>miniKoparka i Transport.</div>
 </div>
 
