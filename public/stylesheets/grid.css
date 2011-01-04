@@ -1175,12 +1175,11 @@
 /* line 10, /Users/hash4di/projects/budkop/app/stylesheets/grid/services.sass */
 
 #services #content #overview .spacer_0 {
-  height: 2em;
+  height: 2.5em;
 }
 
-
 #services #content #overview .spacer_1 {
-  height: 6.5em;
+  height: 7.5em;
 }
 
 #services #content #overview .spacer_2 {
@@ -2066,6 +2065,11 @@
   margin-right: 10px;
   width: 860px;
   margin-right: 0;
+}
+#contact_us #content h3{
+  display: inline;
+  float: right;
+  margin-right: 150px;
 }
 /* line 10, /Users/hash4di/projects/budkop/app/stylesheets/grid/contact_us.sass */
 #contact_us #content #oridinary {
