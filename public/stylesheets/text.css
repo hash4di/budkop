@@ -37,32 +37,33 @@ hr {
 
 /* line 22, ../../app/stylesheets/960/text.sass */
 h1 {
-  font-size: 25px;
+  font-size: 30px;
 }
 
 /* line 24, ../../app/stylesheets/960/text.sass */
 h2 {
-  font-size: 24px;
+  font-family: Arial;
+  font-size: 28px;
 }
 
 /* line 26, ../../app/stylesheets/960/text.sass */
 h3 {
-  font-size: 21px;
+  font-size: 25px;
 }
 
 /* line 28, ../../app/stylesheets/960/text.sass */
 h4 {
-  font-size: 19px;
+  font-size: 23px;
 }
 
 /* line 30, ../../app/stylesheets/960/text.sass */
 h5 {
-  font-size: 17px;
+  font-size: 21px;
 }
 
 /* line 32, ../../app/stylesheets/960/text.sass */
 h6 {
-  font-size: 15px;
+  font-size: 19px;
 }
 
 /* line 34, ../../app/stylesheets/960/text.sass */
@@ -109,24 +110,29 @@ body {
 
 /* line 1, ../../app/stylesheets/text/headers.sass */
 h2 {
+  font-family: 'Josefin Sans', serif;
   color: #FC4C00;
 }
 
 /* line 3, ../../app/stylesheets/text/headers.sass */
 h3 {
+  font-family: 'Josefin Sans', serif;
   color: black;
 }
 
 /* line 5, ../../app/stylesheets/text/headers.sass */
 h4 {
+  font-family: 'Josefin Sans', serif;
   color: #FC4C00;
 }
 h5 {
+  font-family: 'Josefin Sans', serif;
   color: #FC4C00;
 }
 
 h6 {
-  color: #FC4C00;
+  font-family: 'Josefin Sans', serif;
+  color: black;
 }
 
 /* line 1, ../../app/stylesheets/text/paragraphs.sass */
@@ -188,12 +194,23 @@ form .field_with_errors {
 #header #menu ul li {
   float: left;
   margin: 0 1.5em;
-  font: bold 1.1em Helvetica;
+  font-family: 'Ubuntu', serif;
+  font-size: 1.1em;
+  font-style: normal;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1em;  
   color: #FC4C00;
 }
 /* line 16, ../../app/stylesheets/text/header.sass */
 #header #motto {
-  font: 3em Helvetica;
+  font-family: 'Ubuntu', serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  word-spacing: 0em;
+  line-height: 1em;
   color: #cccccc;
 }
 
